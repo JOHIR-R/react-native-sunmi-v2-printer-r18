@@ -1,0 +1,75 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:1:70-100
+		INJECTED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:2:3-25:17
+receiver#com.sunmi.v2.printer.PrinterReceiver
+ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:3:3-24:14
+	android:enabled
+		ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:3:65-87
+	android:exported
+		ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:3:88-111
+	android:name
+		ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:3:13-64
+intent-filter#action:name:woyou.aidlservice.jiuv5.COVER_ERROR_ACTION+action:name:woyou.aidlservice.jiuv5.COVER_OPEN_ACTION+action:name:woyou.aidlservice.jiuv5.ERROR_ACTION+action:name:woyou.aidlservice.jiuv5.FIRMWARE_UPDATING_ACITON+action:name:woyou.aidlservice.jiuv5.KNIFE_ERROR_ACTION_1+action:name:woyou.aidlservice.jiuv5.KNIFE_ERROR_ACTION_2+action:name:woyou.aidlservice.jiuv5.NORMAL_ACTION+action:name:woyou.aidlservice.jiuv5.OUT_OF_PAPER_ACTION+action:name:woyou.aidlservice.jiuv5.OVER_HEATING_ACITON
+ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:4:7-23:23
+	android:priority
+		ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:4:22-45
+action#woyou.aidlservice.jiuv5.OUT_OF_PAPER_ACTION
+ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:6:9-78
+	android:name
+		ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:6:17-75
+action#woyou.aidlservice.jiuv5.ERROR_ACTION
+ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:8:9-71
+	android:name
+		ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:8:17-68
+action#woyou.aidlservice.jiuv5.NORMAL_ACTION
+ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:10:9-72
+	android:name
+		ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:10:17-69
+action#woyou.aidlservice.jiuv5.COVER_OPEN_ACTION
+ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:12:9-76
+	android:name
+		ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:12:17-73
+action#woyou.aidlservice.jiuv5.COVER_ERROR_ACTION
+ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:14:9-77
+	android:name
+		ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:14:17-74
+action#woyou.aidlservice.jiuv5.KNIFE_ERROR_ACTION_1
+ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:16:17-76
+action#woyou.aidlservice.jiuv5.KNIFE_ERROR_ACTION_2
+ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:18:9-79
+	android:name
+		ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:18:17-76
+action#woyou.aidlservice.jiuv5.OVER_HEATING_ACITON
+ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:20:9-78
+	android:name
+		ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:20:17-75
+action#woyou.aidlservice.jiuv5.FIRMWARE_UPDATING_ACITON
+ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:22:9-83
+	android:name
+		ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:22:17-80
+uses-sdk
+INJECTED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml
+INJECTED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml
+INJECTED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml
+INJECTED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml
+		ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml
+		ADDED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml

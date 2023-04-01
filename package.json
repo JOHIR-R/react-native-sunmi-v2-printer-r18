@@ -1,0 +1,35 @@
+{
+  "name": "react-native-sunmi-v2-printer-r18",
+  "version": "1.0.1",
+  "description": "Sunmi V2 Printer for React-Native - React Version 18",
+  "author": "Suraneti Rodsuwan <suraneti.rod@gmail.com>",
+  "contributors": [],
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/developers-xs/react-native-sunmi-v2-printer-r18.git"
+  },
+  "bugs": {
+    "url": "https://github.com/developers-xs/react-native-sunmi-v2-printer-r18/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "sunmi",
+    "printer",
+    "react 18",
+    "react-native 0.71"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.71.4"
+  },
+  "homepage": "https://github.com/developers-xs/react-native-sunmi-v2-printer-r18.git#readme",
+  "directories": {
+    "example": "example"
+  }
+}

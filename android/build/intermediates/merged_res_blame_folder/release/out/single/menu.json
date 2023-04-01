@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.sunmi.v2.printer.react-native-sunmi-v2-printer-merged_res-20:/menu/example_menu.xml",
+        "source": "com.sunmi.v2.printer.react-native-sunmi-v2-printer-core-1.7.0-2:/menu/example_menu.xml"
+    },
+    {
+        "merged": "com.sunmi.v2.printer.react-native-sunmi-v2-printer-merged_res-20:/menu/example_menu2.xml",
+        "source": "com.sunmi.v2.printer.react-native-sunmi-v2-printer-core-1.7.0-2:/menu/example_menu2.xml"
+    }
+]

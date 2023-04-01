@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.3.1">
+
+    <issue
+        id="MissingPermission"
+        severity="Error"
+        message="Missing permissions required by BluetoothAdapter.getBondedDevices: android.permission.BLUETOOTH_CONNECT"
+        category="Correctness"
+        priority="9"
+        summary="Missing Permissions"
+        explanation="This check scans through your code and libraries and looks at the APIs being used, and checks this against the set of permissions required to access those APIs. If the code using those APIs is called at runtime, then the program will crash.&#xA;&#xA;Furthermore, for permissions that are revocable (with `targetSdkVersion` 23), client code must also be prepared to handle the calls throwing an exception if the user rejects the request for permission at runtime."
+        errorLine1="  Set&lt;BluetoothDevice> devices = bluetoothAdapter.getBondedDevices();"
+        errorLine2="                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BluetoothUtil.java"
+            line="25"
+            column="34"/>
+    </issue>
+
+    <issue
+        id="MissingPermission"
+        severity="Error"
+        message="Missing permissions required by BluetoothDevice.createRfcommSocketToServiceRecord: android.permission.BLUETOOTH_CONNECT"
+        category="Correctness"
+        priority="9"
+        summary="Missing Permissions"
+        explanation="This check scans through your code and libraries and looks at the APIs being used, and checks this against the set of permissions required to access those APIs. If the code using those APIs is called at runtime, then the program will crash.&#xA;&#xA;Furthermore, for permissions that are revocable (with `targetSdkVersion` 23), client code must also be prepared to handle the calls throwing an exception if the user rejects the request for permission at runtime."
+        errorLine1="  BluetoothSocket socket = device.createRfcommSocketToServiceRecord(PRINTER_UUID);"
+        errorLine2="                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BluetoothUtil.java"
+            line="36"
+            column="28"/>
+    </issue>
+
+    <issue
+        id="MissingPermission"
+        severity="Error"
+        message="Missing permissions required by BluetoothSocket.connect: android.permission.BLUETOOTH_CONNECT"
+        category="Correctness"
+        priority="9"
+        summary="Missing Permissions"
+        explanation="This check scans through your code and libraries and looks at the APIs being used, and checks this against the set of permissions required to access those APIs. If the code using those APIs is called at runtime, then the program will crash.&#xA;&#xA;Furthermore, for permissions that are revocable (with `targetSdkVersion` 23), client code must also be prepared to handle the calls throwing an exception if the user rejects the request for permission at runtime."
+        errorLine1="  socket.connect();"
+        errorLine2="  ~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BluetoothUtil.java"
+            line="37"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="GradlePluginVersion"
+        severity="Error"
+        message="You must use a newer version of the Android Gradle plugin. The minimum supported version is 3.2.0 and the recommended version is 7.4.2"
+        category="Correctness"
+        priority="8"
+        summary="Incompatible Android Gradle Plugin"
+        explanation="Not all versions of the Android Gradle plugin are compatible with all versions of the SDK. If you update your tools, or if you are trying to open a project that was built with an old version of the tools, you may need to update your plugin version number."
+        errorLine1="        classpath &apos;com.android.tools.build:gradle:2.3.0&apos;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build.gradle"
+            line="7"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="JcenterRepositoryObsolete"
+        severity="Warning"
+        message="JCenter Maven repository is no longer receiving updates: newer library versions may be available elsewhere"
+        category="Correctness"
+        priority="8"
+        summary="JCenter Maven repository is read-only"
+        explanation="The JCenter Maven repository is no longer accepting submissions of Maven artifacts since 31st March 2021.  Ensure that the project is configured to search in repositories with the latest versions of its dependencies."
+        url="https://developer.android.com/r/tools/jcenter-end-of-service"
+        urls="https://developer.android.com/r/tools/jcenter-end-of-service"
+        errorLine1="        jcenter()"
+        errorLine2="        ~~~~~~~~~">
+        <location
+            file="/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build.gradle"
+            line="3"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="SuspiciousIndentation"
+        severity="Warning"
+        message="The indentation string here is different from on the previous line (`&quot; &quot;` vs `\t`)"
+        category="Correctness"
+        priority="6"
+        summary="Suspicious indentation"
+        explanation="This check looks for cases where the indentation suggests a grouping that isn&apos;t actually there in the code. A common example of this would be something like&#xA;```kotlin&#xA;if (column > width)&#xA;    line++&#xA;    column = 0&#xA;```&#xA;Here, the `column = 0` line will be executed every single time, not just if the condition is true."
+        errorLine1="    return bitmap;  "
+        errorLine2=" ~~~">
+        <location
+            file="/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BitmapUtils.java"
+            line="471"
+            column="2"/>
+        <location
+            file="/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BitmapUtils.java"
+            line="469"
+            column="2"
+            message="Previous line indentation here"/>
+    </issue>
+
+    <issue
+        id="SuspiciousIndentation"
+        severity="Warning"
+        message="The indentation string here is different from on the previous line (`&quot; &quot;` vs `\t`)"
+        category="Correctness"
+        priority="6"
+        summary="Suspicious indentation"
+        explanation="This check looks for cases where the indentation suggests a grouping that isn&apos;t actually there in the code. A common example of this would be something like&#xA;```kotlin&#xA;if (column > width)&#xA;    line++&#xA;    column = 0&#xA;```&#xA;Here, the `column = 0` line will be executed every single time, not just if the condition is true."
+        errorLine1="   for(int t=0; t&lt; m; t++){"
+        errorLine2="~~~">
+        <location
+            file="/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BytesUtil.java"
+            line="150"
+            column="1"/>
+        <location
+            file="/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BytesUtil.java"
+            line="149"
+            column="1"
+            message="Previous line indentation here"/>
+    </issue>
+
+    <issue
+        id="SuspiciousIndentation"
+        severity="Warning"
+        message="The indentation string here is different from on the previous line (`&quot; &quot;` vs `\t`)"
+        category="Correctness"
+        priority="6"
+        summary="Suspicious indentation"
+        explanation="This check looks for cases where the indentation suggests a grouping that isn&apos;t actually there in the code. A common example of this would be something like&#xA;```kotlin&#xA;if (column > width)&#xA;    line++&#xA;    column = 0&#xA;```&#xA;Here, the `column = 0` line will be executed every single time, not just if the condition is true."
+        errorLine1="  return null;"
+        errorLine2="~~">
+        <location
+            file="/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BytesUtil.java"
+            line="717"
+            column="1"/>
+        <location
+            file="/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BytesUtil.java"
+            line="706"
+            column="1"
+            message="Previous line indentation here"/>
+    </issue>
+
+    <issue
+        id="GradleDynamicVersion"
+        severity="Warning"
+        message="Avoid using + in version numbers; can lead to unpredictable and unrepeatable builds (com.facebook.react:react-native:+)"
+        category="Correctness"
+        priority="4"
+        summary="Gradle Dynamic Version"
+        explanation="Using `+` in dependencies lets you automatically pick up the latest available version rather than a specific, named version. However, this is not recommended; your builds are not repeatable; you may have tested with a slightly different version than what the build server used. (Using a dynamic version as the major version number is more problematic than using it in the minor version position.)"
+        errorLine1="    implementation &apos;com.facebook.react:react-native:+&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build.gradle"
+            line="38"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="ExportedReceiver"
+        severity="Warning"
+        message="Exported receiver does not require permission"
+        category="Security"
+        priority="5"
+        summary="Receiver does not require permission"
+        explanation="Exported receivers (receivers which either set `exported=true` or contain an intent-filter and do not specify `exported=false`) should define a permission that an entity must have in order to launch the receiver or bind to it. Without this, any application can use this receiver."
+        errorLine1="  &lt;receiver android:name=&quot;com.sunmi.v2.printer.PrinterReceiver&quot; android:enabled=&quot;true&quot; android:exported=&quot;true&quot;>"
+        errorLine2="   ~~~~~~~~">
+        <location
+            file="/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml"
+            line="3"
+            column="4"/>
+    </issue>
+
+    <issue
+        id="ExpiredTargetSdkVersion"
+        severity="Fatal"
+        message="Google Play requires that apps target API level 31 or higher.&#xA;"
+        category="Compliance"
+        priority="8"
+        summary="TargetSdkVersion No Longer Supported"
+        explanation="As of the second half of 2018, Google Play requires that new apps and app updates target API level 26 or higher.&#xA;&#xA;Configuring your app to target a recent API level ensures that users benefit from significant security and performance improvements, while still allowing your app to run on older Android versions (down to the `minSdkVersion`).&#xA;&#xA;To update your `targetSdkVersion`, follow the steps from &quot;Meeting Google Play requirements for target API level&quot;, https://developer.android.com/distribute/best-practices/develop/target-sdk.html"
+        url="https://support.google.com/googleplay/android-developer/answer/113469#targetsdk"
+        urls="https://support.google.com/googleplay/android-developer/answer/113469#targetsdk,https://developer.android.com/distribute/best-practices/develop/target-sdk.html"
+        errorLine1="        targetSdkVersion 21"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build.gradle"
+            line="19"
+            column="9"/>
+    </issue>
+
+</issues>

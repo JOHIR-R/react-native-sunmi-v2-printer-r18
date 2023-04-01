@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.3.1" type="conditional_incidents">
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_CONNECT" message="Missing permissions required by BluetoothAdapter.getBondedDevices: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-sunmi-v2-printer*debug*sourceProvider*0*javaDir*0}/com/sunmi/v2/printer/BluetoothUtil.java"
+            line="25"
+            column="34"
+            startOffset="724"
+            endLine="25"
+            endColumn="69"
+            endOffset="759"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_CONNECT"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothAdapter.getBondedDevices: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_CONNECT" message="Missing permissions required by BluetoothDevice.createRfcommSocketToServiceRecord: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-sunmi-v2-printer*debug*sourceProvider*0*javaDir*0}/com/sunmi/v2/printer/BluetoothUtil.java"
+            line="36"
+            column="28"
+            startOffset="1064"
+            endLine="36"
+            endColumn="82"
+            endOffset="1118"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_CONNECT"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothDevice.createRfcommSocketToServiceRecord: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.BLUETOOTH_CONNECT" message="Missing permissions required by BluetoothSocket.connect: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:react-native-sunmi-v2-printer*debug*sourceProvider*0*javaDir*0}/com/sunmi/v2/printer/BluetoothUtil.java"
+            line="37"
+            column="3"
+            startOffset="1122"
+            endLine="37"
+            endColumn="19"
+            endOffset="1138"/>
+        <map>
+            <entry
+                name="requirement"
+                string="android.permission.BLUETOOTH_CONNECT"/>
+            <entry
+                name="message"
+                string="Missing permissions required by BluetoothSocket.connect: %1$s"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ExpiredTargetSdkVersion"
+        severity="fatal"
+        message="Google Play requires that apps target API level 31 or higher.&#xA;">
+        <fix-replace
+            description="Update targetSdkVersion to 33"
+            oldString="21"
+            replacement="33"/>
+        <location
+            file="${:react-native-sunmi-v2-printer*projectDir}/build.gradle"
+            line="19"
+            column="9"
+            startOffset="300"
+            endLine="19"
+            endColumn="28"
+            endOffset="319"/>
+    </incident>
+
+</incidents>

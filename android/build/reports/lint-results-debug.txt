@@ -1,0 +1,126 @@
+/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BluetoothUtil.java:25: Error: Missing permissions required by BluetoothAdapter.getBondedDevices: android.permission.BLUETOOTH_CONNECT [MissingPermission]
+  Set<BluetoothDevice> devices = bluetoothAdapter.getBondedDevices();
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BluetoothUtil.java:36: Error: Missing permissions required by BluetoothDevice.createRfcommSocketToServiceRecord: android.permission.BLUETOOTH_CONNECT [MissingPermission]
+  BluetoothSocket socket = device.createRfcommSocketToServiceRecord(PRINTER_UUID);
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BluetoothUtil.java:37: Error: Missing permissions required by BluetoothSocket.connect: android.permission.BLUETOOTH_CONNECT [MissingPermission]
+  socket.connect();
+  ~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "MissingPermission":
+   This check scans through your code and libraries and looks at the APIs
+   being used, and checks this against the set of permissions required to
+   access those APIs. If the code using those APIs is called at runtime, then
+   the program will crash.
+
+   Furthermore, for permissions that are revocable (with targetSdkVersion 23),
+   client code must also be prepared to handle the calls throwing an exception
+   if the user rejects the request for permission at runtime.
+
+/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build.gradle:7: Error: You must use a newer version of the Android Gradle plugin. The minimum supported version is 3.2.0 and the recommended version is 7.4.2 [GradlePluginVersion]
+        classpath 'com.android.tools.build:gradle:2.3.0'
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradlePluginVersion":
+   Not all versions of the Android Gradle plugin are compatible with all
+   versions of the SDK. If you update your tools, or if you are trying to open
+   a project that was built with an old version of the tools, you may need to
+   update your plugin version number.
+
+/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build.gradle:3: Warning: JCenter Maven repository is no longer receiving updates: newer library versions may be available elsewhere [JcenterRepositoryObsolete]
+        jcenter()
+        ~~~~~~~~~
+
+   Explanation for issues of type "JcenterRepositoryObsolete":
+   The JCenter Maven repository is no longer accepting submissions of Maven
+   artifacts since 31st March 2021.  Ensure that the project is configured to
+   search in repositories with the latest versions of its dependencies.
+
+   https://developer.android.com/r/tools/jcenter-end-of-service
+
+/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BitmapUtils.java:471: Warning: The indentation string here is different from on the previous line (" " vs \t) [SuspiciousIndentation]
+    return bitmap;  
+ ~~~
+    /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BitmapUtils.java:469: Previous line indentation here
+/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BytesUtil.java:150: Warning: The indentation string here is different from on the previous line (" " vs \t) [SuspiciousIndentation]
+   for(int t=0; t< m; t++){
+~~~
+    /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BytesUtil.java:149: Previous line indentation here
+/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BytesUtil.java:717: Warning: The indentation string here is different from on the previous line (" " vs \t) [SuspiciousIndentation]
+  return null;
+~~
+    /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/java/com/sunmi/v2/printer/BytesUtil.java:706: Previous line indentation here
+
+   Explanation for issues of type "SuspiciousIndentation":
+   This check looks for cases where the indentation suggests a grouping that
+   isn't actually there in the code. A common example of this would be
+   something like
+   if (column > width)
+       line++
+       column = 0
+   Here, the column = 0 line will be executed every single time, not just if
+   the condition is true.
+
+   Available options:
+
+   **always-run** (default is false):
+   Whether this check should be included while editing.
+
+   While you're editing, it's common to have a temporary situation where you have suspicious indentation scenarios -- e.g. you start typing an `if` statement on the line above something you want to make conditional, and you haven't indented it yet. It can be distracting and misleading to suddenly have both statements light up as errors. Therefore, lint will avoid including this check when running on the fly in the editor, unless it looks like the file has not been recently edited. With this option, you can turn it on in all cases.
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="SuspiciousIndentation">
+           <option name="always-run" value="false" />
+       </issue>
+   </lint>
+   ```
+
+/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build.gradle:38: Warning: Avoid using + in version numbers; can lead to unpredictable and unrepeatable builds (com.facebook.react:react-native:+) [GradleDynamicVersion]
+    implementation 'com.facebook.react:react-native:+'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDynamicVersion":
+   Using + in dependencies lets you automatically pick up the latest available
+   version rather than a specific, named version. However, this is not
+   recommended; your builds are not repeatable; you may have tested with a
+   slightly different version than what the build server used. (Using a
+   dynamic version as the major version number is more problematic than using
+   it in the minor version position.)
+
+/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/src/main/AndroidManifest.xml:3: Warning: Exported receiver does not require permission [ExportedReceiver]
+  <receiver android:name="com.sunmi.v2.printer.PrinterReceiver" android:enabled="true" android:exported="true">
+   ~~~~~~~~
+
+   Explanation for issues of type "ExportedReceiver":
+   Exported receivers (receivers which either set exported=true or contain an
+   intent-filter and do not specify exported=false) should define a permission
+   that an entity must have in order to launch the receiver or bind to it.
+   Without this, any application can use this receiver.
+
+/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build.gradle:19: Error: Google Play requires that apps target API level 31 or higher.
+ [ExpiredTargetSdkVersion]
+        targetSdkVersion 21
+        ~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ExpiredTargetSdkVersion":
+   As of the second half of 2018, Google Play requires that new apps and app
+   updates target API level 26 or higher.
+
+   Configuring your app to target a recent API level ensures that users
+   benefit from significant security and performance improvements, while still
+   allowing your app to run on older Android versions (down to the
+   minSdkVersion).
+
+   To update your targetSdkVersion, follow the steps from "Meeting Google Play
+   requirements for target API level",
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://support.google.com/googleplay/android-developer/answer/113469#targetsdk
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+5 errors, 6 warnings

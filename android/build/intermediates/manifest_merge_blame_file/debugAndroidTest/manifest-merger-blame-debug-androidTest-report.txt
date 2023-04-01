@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sunmi.v2.printer.test" >
+4
+5    <uses-sdk
+5-->/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15117320864756601767.xml:5:5-74
+6        android:minSdkVersion="21"
+6-->/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15117320864756601767.xml:5:15-41
+7        android:targetSdkVersion="21" />
+7-->/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15117320864756601767.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15117320864756601767.xml:11:5-15:75
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15117320864756601767.xml:11:22-75
+11        android:functionalTest="false"
+11-->/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15117320864756601767.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15117320864756601767.xml:13:22-53
+13        android:label="Tests for com.sunmi.v2.printer.test"
+13-->/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15117320864756601767.xml:15:22-73
+14        android:targetPackage="com.sunmi.v2.printer.test" />
+14-->/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15117320864756601767.xml:12:22-71
+15
+16    <application
+16-->/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15117320864756601767.xml:7:5-9:19
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.7.0] /Users/antonio/.gradle/caches/transforms-3/4d75081b3a46de54df7f9175cb62a673/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true" >
+19        <uses-library android:name="android.test.runner" />
+19-->/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15117320864756601767.xml:8:9-60
+19-->/Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest15117320864756601767.xml:8:23-57
+20
+21        <receiver
+21-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-35:20
+22            android:name="com.sunmi.v2.printer.PrinterReceiver"
+22-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-64
+23            android:enabled="true"
+23-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-35
+24            android:exported="true" >
+24-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-36
+25            <intent-filter android:priority="1000" >
+25-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-34:29
+25-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:28-51
+26
+27                <!-- 缺纸异常 -->
+28                <action android:name="woyou.aidlservice.jiuv5.OUT_OF_PAPER_ACTION" />
+28-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-86
+28-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:25-83
+29                <!-- 打印错误 -->
+30                <action android:name="woyou.aidlservice.jiuv5.ERROR_ACTION" />
+30-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-79
+30-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-76
+31                <!-- 可以打印 -->
+32                <action android:name="woyou.aidlservice.jiuv5.NORMAL_ACTION" />
+32-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-80
+32-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-77
+33                <!-- 开盖子 -->
+34                <action android:name="woyou.aidlservice.jiuv5.COVER_OPEN_ACTION" />
+34-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-84
+34-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:25-81
+35                <!-- 关盖子异常 -->
+36                <action android:name="woyou.aidlservice.jiuv5.COVER_ERROR_ACTION" />
+36-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-85
+36-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-82
+37                <!-- 切刀异常1－卡切刀 -->
+38                <action android:name="woyou.aidlservice.jiuv5.KNIFE_ERROR_ACTION_1" />
+38-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-87
+38-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-84
+39                <!-- 切刀异常2－切刀修复 -->
+40                <action android:name="woyou.aidlservice.jiuv5.KNIFE_ERROR_ACTION_2" />
+40-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-87
+40-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-84
+41                <!-- 打印头过热异常 -->
+42                <action android:name="woyou.aidlservice.jiuv5.OVER_HEATING_ACITON" />
+42-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-86
+42-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-83
+43                <!-- 打印机固件开始升级 -->
+44                <action android:name="woyou.aidlservice.jiuv5.FIRMWARE_UPDATING_ACITON" />
+44-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-91
+44-->[:react-native-sunmi-v2-printer] /Users/antonio/Documents/Developers-XS/Gustikos/Pedidos/Cliente/gustitruck/node_modules/react-native-sunmi-v2-printer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-88
+45            </intent-filter>
+46        </receiver>
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/antonio/.gradle/caches/transforms-3/afe90b3e28a9f868df6da608b58dbf88/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/antonio/.gradle/caches/transforms-3/afe90b3e28a9f868df6da608b58dbf88/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+50            android:authorities="com.sunmi.v2.printer.test.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/antonio/.gradle/caches/transforms-3/afe90b3e28a9f868df6da608b58dbf88/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/antonio/.gradle/caches/transforms-3/afe90b3e28a9f868df6da608b58dbf88/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/antonio/.gradle/caches/transforms-3/afe90b3e28a9f868df6da608b58dbf88/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.0.0] /Users/antonio/.gradle/caches/transforms-3/afe90b3e28a9f868df6da608b58dbf88/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.0.0] /Users/antonio/.gradle/caches/transforms-3/afe90b3e28a9f868df6da608b58dbf88/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/antonio/.gradle/caches/transforms-3/a5dc8019ed925c8b110cd396be525241/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/antonio/.gradle/caches/transforms-3/a5dc8019ed925c8b110cd396be525241/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/antonio/.gradle/caches/transforms-3/a5dc8019ed925c8b110cd396be525241/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>

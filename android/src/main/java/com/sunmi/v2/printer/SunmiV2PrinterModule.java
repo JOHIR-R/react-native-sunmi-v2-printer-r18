@@ -86,23 +86,6 @@ public class SunmiV2PrinterModule extends ReactContextBaseJavaModule {
     public SunmiV2PrinterModule(ReactApplicationContext reactContext) {
         super(reactContext);
         reactApplicationContext = reactContext;
-        Intent intent = new Intent();
-        intent.setPackage("woyou.aidlservice.jiuiv5");
-        intent.setAction("woyou.aidlservice.jiuiv5.IWoyouService");
-        reactContext.startService(intent);
-        reactContext.bindService(intent, connService, Context.BIND_AUTO_CREATE);
-        bitMapUtils = new BitmapUtils(reactContext);
-        IntentFilter mFilter = new IntentFilter();
-        mFilter.addAction(OUT_OF_PAPER_ACTION);
-        mFilter.addAction(ERROR_ACTION);
-        mFilter.addAction(NORMAL_ACTION);
-        mFilter.addAction(COVER_OPEN_ACTION);
-        mFilter.addAction(COVER_ERROR_ACTION);
-        mFilter.addAction(KNIFE_ERROR_1_ACTION);
-        mFilter.addAction(KNIFE_ERROR_2_ACTION);
-        mFilter.addAction(OVER_HEATING_ACITON);
-        mFilter.addAction(FIRMWARE_UPDATING_ACITON);
-        getReactApplicationContext().registerReceiver(receiver, mFilter);
         Log.d("PrinterReceiver", "------------ init ");
     }
 
